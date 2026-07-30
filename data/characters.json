@@ -1,0 +1,628 @@
+{
+  "characters": [
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "word": "天空",
+      "sentence": "天上有很多白云。"
+    },
+    {
+      "char": "地",
+      "pinyin": "dì",
+      "word": "大地",
+      "sentence": "大地长满了绿草。"
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "word": "人们",
+      "sentence": "人们在公园里散步。"
+    },
+    {
+      "char": "日",
+      "pinyin": "rì",
+      "word": "太阳",
+      "sentence": "太阳从东边升起来。"
+    },
+    {
+      "char": "月",
+      "pinyin": "yuè",
+      "word": "月亮",
+      "sentence": "月亮弯弯像小船。"
+    },
+    {
+      "char": "水",
+      "pinyin": "shuǐ",
+      "word": "喝水",
+      "sentence": "小猫在喝水。"
+    },
+    {
+      "char": "火",
+      "pinyin": "huǒ",
+      "word": "生火",
+      "sentence": "冬天要生火取暖。"
+    },
+    {
+      "char": "山",
+      "pinyin": "shān",
+      "word": "高山",
+      "sentence": "高山上有大树。"
+    },
+    {
+      "char": "石",
+      "pinyin": "shí",
+      "word": "石头",
+      "sentence": "河边有很多石头。"
+    },
+    {
+      "char": "木",
+      "pinyin": "mù",
+      "word": "木头",
+      "sentence": "桌子是木头做的。"
+    },
+    {
+      "char": "花",
+      "pinyin": "huā",
+      "word": "花朵",
+      "sentence": "花朵开满了花园。"
+    },
+    {
+      "char": "草",
+      "pinyin": "cǎo",
+      "word": "青草",
+      "sentence": "小羊在吃青草。"
+    },
+    {
+      "char": "树",
+      "pinyin": "shù",
+      "word": "大树",
+      "sentence": "大树下可以乘凉。"
+    },
+    {
+      "char": "鸟",
+      "pinyin": "niǎo",
+      "word": "小鸟",
+      "sentence": "小鸟在树上唱歌。"
+    },
+    {
+      "char": "鱼",
+      "pinyin": "yú",
+      "word": "小鱼",
+      "sentence": "小鱼在水里游来游去。"
+    },
+    {
+      "char": "虫",
+      "pinyin": "chóng",
+      "word": "小虫",
+      "sentence": "小虫在叶子上爬。"
+    },
+    {
+      "char": "马",
+      "pinyin": "mǎ",
+      "word": "白马",
+      "sentence": "白马跑得很快。"
+    },
+    {
+      "char": "牛",
+      "pinyin": "niú",
+      "word": "奶牛",
+      "sentence": "奶牛产牛奶。"
+    },
+    {
+      "char": "羊",
+      "pinyin": "yáng",
+      "word": "小羊",
+      "sentence": "小羊咩咩叫。"
+    },
+    {
+      "char": "大",
+      "pinyin": "dà",
+      "word": "大象",
+      "sentence": "大象的鼻子长长的。"
+    },
+    {
+      "char": "小",
+      "pinyin": "xiǎo",
+      "word": "小手",
+      "sentence": "宝宝的小手真可爱。"
+    },
+    {
+      "char": "多",
+      "pinyin": "duō",
+      "word": "很多",
+      "sentence": "天上有很多星星。"
+    },
+    {
+      "char": "少",
+      "pinyin": "shǎo",
+      "word": "多少",
+      "sentence": "还剩多少个苹果？"
+    },
+    {
+      "char": "上",
+      "pinyin": "shàng",
+      "word": "上面",
+      "sentence": "书放在桌子上面。"
+    },
+    {
+      "char": "下",
+      "pinyin": "xià",
+      "word": "下面",
+      "sentence": "猫躲在桌子下面。"
+    },
+    {
+      "char": "左",
+      "pinyin": "zuǒ",
+      "word": "左边",
+      "sentence": "左手拿笔写字。"
+    },
+    {
+      "char": "右",
+      "pinyin": "yòu",
+      "word": "右边",
+      "sentence": "右手拿筷子吃饭。"
+    },
+    {
+      "char": "前",
+      "pinyin": "qián",
+      "word": "前面",
+      "sentence": "前面有一棵大树。"
+    },
+    {
+      "char": "后",
+      "pinyin": "hòu",
+      "word": "后面",
+      "sentence": "后面有一辆红色的车。"
+    },
+    {
+      "char": "中",
+      "pinyin": "zhōng",
+      "word": "中间",
+      "sentence": "中间那个是最大的。"
+    },
+    {
+      "char": "东",
+      "pinyin": "dōng",
+      "word": "东方",
+      "sentence": "太阳从东方升起。"
+    },
+    {
+      "char": "西",
+      "pinyin": "xī",
+      "word": "西方",
+      "sentence": "太阳从西方落下。"
+    },
+    {
+      "char": "南",
+      "pinyin": "nán",
+      "word": "南方",
+      "sentence": "南方天气很暖和。"
+    },
+    {
+      "char": "北",
+      "pinyin": "běi",
+      "word": "北方",
+      "sentence": "北方冬天会下雪。"
+    },
+    {
+      "char": "春",
+      "pinyin": "chūn",
+      "word": "春天",
+      "sentence": "春天花儿都开了。"
+    },
+    {
+      "char": "夏",
+      "pinyin": "xià",
+      "word": "夏天",
+      "sentence": "夏天天气很热。"
+    },
+    {
+      "char": "秋",
+      "pinyin": "qiū",
+      "word": "秋天",
+      "sentence": "秋天树叶变黄了。"
+    },
+    {
+      "char": "冬",
+      "pinyin": "dōng",
+      "word": "冬天",
+      "sentence": "冬天可以堆雪人。"
+    },
+    {
+      "char": "风",
+      "pinyin": "fēng",
+      "word": "大风",
+      "sentence": "今天风很大。"
+    },
+    {
+      "char": "雨",
+      "pinyin": "yǔ",
+      "word": "下雨",
+      "sentence": "下雨了要打伞。"
+    },
+    {
+      "char": "云",
+      "pinyin": "yún",
+      "word": "白云",
+      "sentence": "白云飘在天上。"
+    },
+    {
+      "char": "雪",
+      "pinyin": "xuě",
+      "word": "下雪",
+      "sentence": "下雪了真开心。"
+    },
+    {
+      "char": "日",
+      "pinyin": "rì",
+      "word": "日子",
+      "sentence": "今天是个好日子。"
+    },
+    {
+      "char": "光",
+      "pinyin": "guāng",
+      "word": "阳光",
+      "sentence": "阳光照在身上暖暖的。"
+    },
+    {
+      "char": "心",
+      "pinyin": "xīn",
+      "word": "开心",
+      "sentence": "今天我很开心。"
+    },
+    {
+      "char": "手",
+      "pinyin": "shǒu",
+      "word": "小手",
+      "sentence": "用小手画画。"
+    },
+    {
+      "char": "足",
+      "pinyin": "zú",
+      "word": "满足",
+      "sentence": "吃饱了很满足。"
+    },
+    {
+      "char": "口",
+      "pinyin": "kǒu",
+      "word": "开口",
+      "sentence": "请开口说话。"
+    },
+    {
+      "char": "目",
+      "pinyin": "mù",
+      "word": "目光",
+      "sentence": "妈妈的目光很温柔。"
+    },
+    {
+      "char": "耳",
+      "pinyin": "ěr",
+      "word": "耳朵",
+      "sentence": "小兔子的耳朵长长的。"
+    },
+    {
+      "char": "头",
+      "pinyin": "tóu",
+      "word": "头上",
+      "sentence": "头上戴着一顶帽子。"
+    },
+    {
+      "char": "口",
+      "pinyin": "kǒu",
+      "word": "口水",
+      "sentence": "看到好吃的流口水。"
+    },
+    {
+      "char": "爸",
+      "pinyin": "bà",
+      "word": "爸爸",
+      "sentence": "爸爸带我出去玩。"
+    },
+    {
+      "char": "妈",
+      "pinyin": "mā",
+      "word": "妈妈",
+      "sentence": "妈妈做了好吃的饭。"
+    },
+    {
+      "char": "爷",
+      "pinyin": "yé",
+      "word": "爷爷",
+      "sentence": "爷爷在花园种花。"
+    },
+    {
+      "char": "奶",
+      "pinyin": "nǎi",
+      "word": "奶奶",
+      "sentence": "奶奶给我讲故事。"
+    },
+    {
+      "char": "哥",
+      "pinyin": "gē",
+      "word": "哥哥",
+      "sentence": "哥哥比我大两岁。"
+    },
+    {
+      "char": "姐",
+      "pinyin": "jiě",
+      "word": "姐姐",
+      "sentence": "姐姐在看书。"
+    },
+    {
+      "char": "弟",
+      "pinyin": "dì",
+      "word": "弟弟",
+      "sentence": "弟弟才一岁。"
+    },
+    {
+      "char": "妹",
+      "pinyin": "mèi",
+      "word": "妹妹",
+      "sentence": "妹妹在玩娃娃。"
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "word": "我们",
+      "sentence": "我们一起去玩吧。"
+    },
+    {
+      "char": "你",
+      "pinyin": "nǐ",
+      "word": "你好",
+      "sentence": "你好呀小朋友。"
+    },
+    {
+      "char": "他",
+      "pinyin": "tā",
+      "word": "他们",
+      "sentence": "他们在踢球。"
+    },
+    {
+      "char": "好",
+      "pinyin": "hǎo",
+      "word": "好的",
+      "sentence": "这个苹果很好吃。"
+    },
+    {
+      "char": "美",
+      "pinyin": "měi",
+      "word": "美丽",
+      "sentence": "花儿真美丽。"
+    },
+    {
+      "char": "白",
+      "pinyin": "bái",
+      "word": "白色",
+      "sentence": "小白兔白又白。"
+    },
+    {
+      "char": "红",
+      "pinyin": "hóng",
+      "word": "红色",
+      "sentence": "苹果是红色的。"
+    },
+    {
+      "char": "黄",
+      "pinyin": "huáng",
+      "word": "黄色",
+      "sentence": "香蕉是黄色的。"
+    },
+    {
+      "char": "绿",
+      "pinyin": "lǜ",
+      "word": "绿色",
+      "sentence": "树叶是绿色的。"
+    },
+    {
+      "char": "蓝",
+      "pinyin": "lán",
+      "word": "蓝色",
+      "sentence": "天空是蓝色的。"
+    },
+    {
+      "char": "黑",
+      "pinyin": "hēi",
+      "word": "黑色",
+      "sentence": "小猫是黑色的。"
+    },
+    {
+      "char": "吃",
+      "pinyin": "chī",
+      "word": "吃饭",
+      "sentence": "到时间吃饭了。"
+    },
+    {
+      "char": "喝",
+      "pinyin": "hē",
+      "word": "喝水",
+      "sentence": "口渴了多喝水。"
+    },
+    {
+      "char": "看",
+      "pinyin": "kàn",
+      "word": "看书",
+      "sentence": "我在看书。"
+    },
+    {
+      "char": "听",
+      "pinyin": "tīng",
+      "word": "听话",
+      "sentence": "宝宝要听话。"
+    },
+    {
+      "char": "说",
+      "pinyin": "shuō",
+      "word": "说话",
+      "sentence": "请大声说话。"
+    },
+    {
+      "char": "走",
+      "pinyin": "zǒu",
+      "word": "走路",
+      "sentence": "宝宝学会走路了。"
+    },
+    {
+      "char": "跑",
+      "pinyin": "pǎo",
+      "word": "跑步",
+      "sentence": "小狗在跑步。"
+    },
+    {
+      "char": "飞",
+      "pinyin": "fēi",
+      "word": "飞翔",
+      "sentence": "小鸟在天空飞翔。"
+    },
+    {
+      "char": "坐",
+      "pinyin": "zuò",
+      "word": "坐下",
+      "sentence": "请坐下休息。"
+    },
+    {
+      "char": "站",
+      "pinyin": "zhàn",
+      "word": "站立",
+      "sentence": "站立时要挺直。"
+    },
+    {
+      "char": "一",
+      "pinyin": "yī",
+      "word": "一个",
+      "sentence": "桌上有1个苹果。"
+    },
+    {
+      "char": "二",
+      "pinyin": "èr",
+      "word": "两个",
+      "sentence": "我有2只手。"
+    },
+    {
+      "char": "三",
+      "pinyin": "sān",
+      "word": "三个",
+      "sentence": "三个小朋友在玩。"
+    },
+    {
+      "char": "四",
+      "pinyin": "sì",
+      "word": "四个",
+      "sentence": "桌子有四条腿。"
+    },
+    {
+      "char": "五",
+      "pinyin": "wǔ",
+      "word": "五个",
+      "sentence": "一只手有五根手指。"
+    },
+    {
+      "char": "六",
+      "pinyin": "liù",
+      "word": "六个",
+      "sentence": "盒子里有六个蛋。"
+    },
+    {
+      "char": "七",
+      "pinyin": "qī",
+      "word": "七个",
+      "sentence": "天上有七颗星星。"
+    },
+    {
+      "char": "八",
+      "pinyin": "bā",
+      "word": "八个",
+      "sentence": "螃蟹有八条腿。"
+    },
+    {
+      "char": "九",
+      "pinyin": "jiǔ",
+      "word": "九个",
+      "sentence": "我有九块糖。"
+    },
+    {
+      "char": "十",
+      "pinyin": "shí",
+      "word": "十个",
+      "sentence": "十个手指头。"
+    },
+    {
+      "char": "百",
+      "pinyin": "bǎi",
+      "word": "一百",
+      "sentence": "一百是很大的数。"
+    },
+    {
+      "char": "书",
+      "pinyin": "shū",
+      "word": "读书",
+      "sentence": "我喜欢读书。"
+    },
+    {
+      "char": "笔",
+      "pinyin": "bǐ",
+      "word": "铅笔",
+      "sentence": "用铅笔写字。"
+    },
+    {
+      "char": "纸",
+      "pinyin": "zhǐ",
+      "word": "白纸",
+      "sentence": "在白纸上画画。"
+    },
+    {
+      "char": "学",
+      "pinyin": "xué",
+      "word": "学习",
+      "sentence": "我要好好学习。"
+    },
+    {
+      "char": "车",
+      "pinyin": "chē",
+      "word": "汽车",
+      "sentence": "汽车在路上跑。"
+    },
+    {
+      "char": "船",
+      "pinyin": "chuán",
+      "word": "小船",
+      "sentence": "小船在水上漂。"
+    },
+    {
+      "char": "房",
+      "pinyin": "fáng",
+      "word": "房子",
+      "sentence": "房子里住着人。"
+    },
+    {
+      "char": "门",
+      "pinyin": "mén",
+      "word": "开门",
+      "sentence": "请开门让我进去。"
+    },
+    {
+      "char": "窗",
+      "pinyin": "chuāng",
+      "word": "窗户",
+      "sentence": "打开窗户通风。"
+    },
+    {
+      "char": "衣",
+      "pinyin": "yī",
+      "word": "衣服",
+      "sentence": "天冷多穿衣服。"
+    },
+    {
+      "char": "食",
+      "pinyin": "shí",
+      "word": "食物",
+      "sentence": "不要浪费食物。"
+    },
+    {
+      "char": "球",
+      "pinyin": "qiú",
+      "word": "皮球",
+      "sentence": "小朋友在拍皮球。"
+    }
+  ]
+}

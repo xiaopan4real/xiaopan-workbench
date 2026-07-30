@@ -1,0 +1,446 @@
+{
+  "questions": [
+    {
+      "type": "classification",
+      "category": "分类",
+      "question": "下面哪个不是水果？",
+      "options": [
+        "苹果",
+        "香蕉",
+        "白菜",
+        "草莓"
+      ],
+      "answer": 2,
+      "explanation": "白菜是蔬菜，其他都是水果。"
+    },
+    {
+      "type": "classification",
+      "category": "分类",
+      "question": "下面哪个不是动物？",
+      "options": [
+        "小猫",
+        "小狗",
+        "汽车",
+        "小兔"
+      ],
+      "answer": 2,
+      "explanation": "汽车是交通工具，其他都是动物。"
+    },
+    {
+      "type": "classification",
+      "category": "分类",
+      "question": "下面哪个不是颜色？",
+      "options": [
+        "红色",
+        "蓝色",
+        "苹果",
+        "黄色"
+      ],
+      "answer": 2,
+      "explanation": "苹果是水果，其他都是颜色。"
+    },
+    {
+      "type": "classification",
+      "category": "分类",
+      "question": "下面哪个不会飞？",
+      "options": [
+        "小鸟",
+        "蝴蝶",
+        "小鱼",
+        "蜜蜂"
+      ],
+      "answer": 2,
+      "explanation": "小鱼在水里游，其他都会飞。"
+    },
+    {
+      "type": "sequence",
+      "category": "排序",
+      "question": "把下面的数从小到大排列：3, 1, 2",
+      "options": [
+        "1, 2, 3",
+        "3, 2, 1",
+        "2, 1, 3",
+        "1, 3, 2"
+      ],
+      "answer": 0,
+      "explanation": "从小到大是1, 2, 3。"
+    },
+    {
+      "type": "sequence",
+      "category": "排序",
+      "question": "把下面的数从大到小排列：2, 5, 3",
+      "options": [
+        "5, 3, 2",
+        "2, 3, 5",
+        "3, 2, 5",
+        "2, 5, 3"
+      ],
+      "answer": 0,
+      "explanation": "从大到小是5, 3, 2。"
+    },
+    {
+      "type": "sequence",
+      "category": "排序",
+      "question": "按生长顺序排列：种子、开花、发芽、结果",
+      "options": [
+        "种子→发芽→开花→结果",
+        "种子→开花→发芽→结果",
+        "发芽→种子→开花→结果",
+        "结果→开花→发芽→种子"
+      ],
+      "answer": 0,
+      "explanation": "植物生长顺序：种子→发芽→开花→结果。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "小红比小明高，小明比小华高，谁最矮？",
+      "options": [
+        "小红",
+        "小明",
+        "小华",
+        "一样高"
+      ],
+      "answer": 2,
+      "explanation": "小红>小明>小华，所以小华最矮。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "今天是星期一，明天是星期几？",
+      "options": [
+        "星期日",
+        "星期二",
+        "星期三",
+        "星期五"
+      ],
+      "answer": 1,
+      "explanation": "星期一的明天是星期二。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "如果天下雨了，地上会怎样？",
+      "options": [
+        "变干",
+        "变湿",
+        "变热",
+        "不变"
+      ],
+      "answer": 1,
+      "explanation": "下雨天地会变湿。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "猫喜欢吃什么？",
+      "options": [
+        "草",
+        "鱼",
+        "石头",
+        "树叶"
+      ],
+      "answer": 1,
+      "explanation": "猫喜欢吃鱼。"
+    },
+    {
+      "type": "difference",
+      "category": "找不同",
+      "question": "找不同：🍎🍎🍎🍐🍎🍎，哪个不一样？",
+      "options": [
+        "第1个",
+        "第3个",
+        "第4个",
+        "第6个"
+      ],
+      "answer": 2,
+      "explanation": "第4个是梨，其他都是苹果。"
+    },
+    {
+      "type": "difference",
+      "category": "找不同",
+      "question": "找不同：🐶🐶🐱🐶🐶，哪个不一样？",
+      "options": [
+        "第1个",
+        "第2个",
+        "第3个",
+        "第5个"
+      ],
+      "answer": 2,
+      "explanation": "第3个是猫，其他都是狗。"
+    },
+    {
+      "type": "difference",
+      "category": "找不同",
+      "question": "找不同：🔴🔴🔴🔴🔵🔴，哪个不一样？",
+      "options": [
+        "第2个",
+        "第4个",
+        "第5个",
+        "第6个"
+      ],
+      "answer": 2,
+      "explanation": "第5个是蓝色，其他都是红色。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "白天太阳出来了，晚上什么出来？",
+      "options": [
+        "太阳",
+        "月亮",
+        "彩虹",
+        "闪电"
+      ],
+      "answer": 1,
+      "explanation": "晚上月亮出来。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "冬天很冷，我们要穿什么？",
+      "options": [
+        "短袖",
+        "裙子",
+        "棉袄",
+        "拖鞋"
+      ],
+      "answer": 2,
+      "explanation": "冬天要穿棉袄保暖。"
+    },
+    {
+      "type": "classification",
+      "category": "分类",
+      "question": "下面哪个是文具？",
+      "options": [
+        "苹果",
+        "铅笔",
+        "小狗",
+        "衣服"
+      ],
+      "answer": 1,
+      "explanation": "铅笔是文具，用来写字。"
+    },
+    {
+      "type": "sequence",
+      "category": "排序",
+      "question": "一天的时间顺序：上午、下午、晚上，正确的是？",
+      "options": [
+        "晚上→上午→下午",
+        "上午→下午→晚上",
+        "下午→上午→晚上",
+        "上午→晚上→下午"
+      ],
+      "answer": 1,
+      "explanation": "一天顺序是上午→下午→晚上。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "哪个动物生活在水里？",
+      "options": [
+        "小鸟",
+        "小鱼",
+        "小猫",
+        "小鸡"
+      ],
+      "answer": 1,
+      "explanation": "小鱼生活在水里。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "哪个不是交通工具？",
+      "options": [
+        "汽车",
+        "飞机",
+        "苹果",
+        "船"
+      ],
+      "answer": 2,
+      "explanation": "苹果是水果，不是交通工具。"
+    },
+    {
+      "type": "classification",
+      "category": "分类",
+      "question": "下面哪个是蔬菜？",
+      "options": [
+        "草莓",
+        "西瓜",
+        "胡萝卜",
+        "葡萄"
+      ],
+      "answer": 2,
+      "explanation": "胡萝卜是蔬菜，其他都是水果。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "夏天很热，我们经常吃什么解暑？",
+      "options": [
+        "火锅",
+        "冰淇淋",
+        "热汤",
+        "烤红薯"
+      ],
+      "answer": 1,
+      "explanation": "夏天吃冰淇淋可以解暑降温。"
+    },
+    {
+      "type": "sequence",
+      "category": "排序",
+      "question": "按年龄从小到大排：爷爷、爸爸、宝宝",
+      "options": [
+        "爷爷→爸爸→宝宝",
+        "宝宝→爸爸→爷爷",
+        "爸爸→宝宝→爷爷",
+        "宝宝→爷爷→爸爸"
+      ],
+      "answer": 1,
+      "explanation": "宝宝最小，爸爸中间，爷爷最大。"
+    },
+    {
+      "type": "difference",
+      "category": "找不同",
+      "question": "找不同：🚗🚗🚗🚌🚗，哪个不一样？",
+      "options": [
+        "第1个",
+        "第3个",
+        "第4个",
+        "第5个"
+      ],
+      "answer": 2,
+      "explanation": "第4个是公交车，其他都是小汽车。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "小鸡的妈妈是谁？",
+      "options": [
+        "鸭妈妈",
+        "鸡妈妈",
+        "鹅妈妈",
+        "鸟妈妈"
+      ],
+      "answer": 1,
+      "explanation": "小鸡的妈妈是母鸡。"
+    },
+    {
+      "type": "classification",
+      "category": "分类",
+      "question": "下面哪个不是食物？",
+      "options": [
+        "面包",
+        "牛奶",
+        "玩具",
+        "鸡蛋"
+      ],
+      "answer": 2,
+      "explanation": "玩具不能吃，其他都是食物。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "天黑了看不清楚东西，我们应该打开什么？",
+      "options": [
+        "风扇",
+        "台灯",
+        "水龙头",
+        "冰箱"
+      ],
+      "answer": 1,
+      "explanation": "天黑要开灯才能看清楚。"
+    },
+    {
+      "type": "difference",
+      "category": "找不同",
+      "question": "找不同：🌞🌞🌙🌞🌞，哪个不一样？",
+      "options": [
+        "第1个",
+        "第2个",
+        "第3个",
+        "第5个"
+      ],
+      "answer": 2,
+      "explanation": "第3个是月亮，其他都是太阳。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "小兔子喜欢吃什么？",
+      "options": [
+        "肉",
+        "鱼",
+        "胡萝卜",
+        "骨头"
+      ],
+      "answer": 2,
+      "explanation": "小兔子爱吃胡萝卜。"
+    },
+    {
+      "type": "sequence",
+      "category": "排序",
+      "question": "做饭的正确顺序：洗菜、切菜、炒菜、吃饭",
+      "options": [
+        "切菜→洗菜→炒菜→吃饭",
+        "洗菜→切菜→炒菜→吃饭",
+        "炒菜→洗菜→切菜→吃饭",
+        "洗菜→炒菜→切菜→吃饭"
+      ],
+      "answer": 1,
+      "explanation": "做饭顺序：洗菜→切菜→炒菜→吃饭。"
+    },
+    {
+      "type": "classification",
+      "category": "分类",
+      "question": "下面哪个是运动项目？",
+      "options": [
+        "跑步",
+        "睡觉",
+        "吃饭",
+        "看电视"
+      ],
+      "answer": 0,
+      "explanation": "跑步是运动，其他不是。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "雨天出门需要带什么？",
+      "options": [
+        "扇子",
+        "雨伞",
+        "太阳镜",
+        "帽子"
+      ],
+      "answer": 1,
+      "explanation": "下雨天要带雨伞，才不会淋湿。"
+    },
+    {
+      "type": "difference",
+      "category": "找不同",
+      "question": "找不同：👟👟👠👟👟，哪个不一样？",
+      "options": [
+        "第1个",
+        "第2个",
+        "第3个",
+        "第4个"
+      ],
+      "answer": 2,
+      "explanation": "第3个是高跟鞋，其他都是运动鞋。"
+    },
+    {
+      "type": "reasoning",
+      "category": "推理",
+      "question": "用什么可以把纸剪开？",
+      "options": [
+        "尺子",
+        "剪刀",
+        "铅笔",
+        "橡皮"
+      ],
+      "answer": 1,
+      "explanation": "剪刀可以用来剪纸。"
+    }
+  ]
+}

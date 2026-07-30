@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="小潘工作台">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="小潘工作台">
+<meta name="theme-color" content="#F8BBD0">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+<link rel="manifest" href="manifest.json">
+<title>小潘工作台</title>
+<link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+
+<div class="app">
+  <!-- 顶栏 -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <span class="topbar-logo">🐶</span>
+      <span class="topbar-title">小潘工作台</span>
+    </div>
+    <div class="topbar-right">
+      <span class="topbar-date" id="dateBadge">--</span>
+    </div>
+  </header>
+
+  <div class="main-wrap">
+    <!-- 左侧导航 -->
+    <nav class="sidebar" id="sidebar">
+      <button class="nav-item active" data-section="chinese">
+        <span class="nav-icon">📚</span>
+        <span class="nav-label">语文</span>
+      </button>
+      <button class="nav-item" data-section="math">
+        <span class="nav-icon">🔢</span>
+        <span class="nav-label">数学</span>
+      </button>
+      <button class="nav-item" data-section="logic">
+        <span class="nav-icon">🧩</span>
+        <span class="nav-label">逻辑</span>
+      </button>
+      <button class="nav-item" data-section="inspiration">
+        <span class="nav-icon">💡</span>
+        <span class="nav-label">灵感</span>
+      </button>
+      <button class="nav-item" data-section="period">
+        <span class="nav-icon">🌷</span>
+        <span class="nav-label">经期</span>
+      </button>
+    </nav>
+
+    <!-- 右侧内容区 -->
+    <main class="content" id="contentArea">
+      <div class="loading">
+        <div class="spinner"></div>
+        <p>加载中...</p>
+      </div>
+    </main>
+  </div>
+
+  <!-- 底部操作栏 -->
+  <footer class="bottombar" id="bottombar">
+    <button class="bottom-btn" id="addTaskBtn" onclick="showAddTask()">
+      <span>➕</span> 新增
+    </button>
+    <button class="bottom-btn" id="deleteTaskBtn" onclick="toggleDeleteMode()">
+      <span>🗑️</span> 删除
+    </button>
+    <button class="bottom-btn" onclick="refreshAll()">
+      <span>🔄</span> 刷新
+    </button>
+    <a class="bottom-btn bottom-douyin" href="douyin://" onclick="openDouyin(event)">
+      <span>🎵</span> 抖音
+    </a>
+  </footer>
+</div>
+
+<!-- 添加任务弹窗 -->
+<div class="modal-overlay hidden" id="modalOverlay">
+  <div class="modal">
+    <h3 class="modal-title" id="modalTitle">新增题目</h3>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="modal-footer">
+      <button class="modal-btn modal-cancel" onclick="closeModal()">取消</button>
+      <button class="modal-btn modal-ok" onclick="saveTask()">保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast hidden" id="toast"></div>
+
+<script src="app.js?v=5"></script>
+</body>
+</html>
